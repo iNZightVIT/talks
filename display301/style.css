@@ -15,16 +15,17 @@
 
 
 /* main slide layouts */
-.reveal .slides::after {
+.reveal::after {
     /* add inzight logo */
     content: '';
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     /* background: gray; */
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: fixed;
+    left: 5px;
+    bottom: 10px;
+    /* transform: translateX(-50%); */
     background-image: url('fig/inzight_hex.svg');
     background-size: contain;
     background-repeat: no-repeat;

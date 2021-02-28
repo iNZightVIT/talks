@@ -30,3 +30,24 @@ output:
 * focus on exploration and developing intuition for data
 
 ![iNZight Interface](fig/inzight_main.png){.size-800}
+
+
+# Automatic Graphs
+
+* **iNZight** chooses the appropriate graph to display the chosen variables
+* easy to customise color and size, add lines or smoothers
+* textual summaries with the click of a button
+
+# Data Wrangling
+
+* imports a range of formats, including from other software
+    * Excel, SAS, stata, SPSS, ...
+* collection of transformations to do common data wrangling processes
+* supports numeric, categorical, and date/time variable formats natively
+
+# Advanced Modules
+
+* model fitting to fit regression models
+* maps for plotting geographical data
+* time series for exploring and forecasting data over time
+* ... and more ...
