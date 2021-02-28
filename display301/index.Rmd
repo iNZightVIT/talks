@@ -1,0 +1,32 @@
+---
+title: "<img src='fig/inzight_logo.svg' height='200'><br>A Data Visualisation and Exploration<br>GUI for R"
+pagetitle: "iNZight"
+author: "<div class='separator'></div>"
+date: "<img src='fig/uoa_logo.png'>"
+output:
+    revealjs::revealjs_presentation:
+        css: style.css
+        theme: simple
+        transition: fade
+        slide_level: 1
+        reveal_options:
+            controls: false
+            width: 1200
+            height: 700
+---
+
+# iNZight
+
+* developed by statistics students at UoA
+* used in teaching NCEA L3 and undergraduate university courses
+* also used in (non-) government organisations around the world
+* built with R (also developed here at the Department of Statistics)
+
+
+# Intuitive Interface
+
+* users choose variables, not methods
+* makes it easier to learn *and* re-learn later on
+* focus on exploration and developing intuition for data
+
+![iNZight Interface](fig/inzight_main.png){.size-800}

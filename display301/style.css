@@ -1,0 +1,36 @@
+.reveal section h1 {
+    color: #094b85;
+    font-weight: bold;
+}
+
+/* image in header: no border */
+.reveal section h1 img,
+.reveal section h3 img {
+    border: none;
+    box-shadow: none;
+}
+.reveal section .separator {
+    height: 1em;
+}
+
+
+/* main slide layouts */
+.reveal .slides::after {
+    /* add inzight logo */
+    content: '';
+    display: block;
+    width: 150px;
+    height: 150px;
+    /* background: gray; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('fig/inzight_hex.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.reveal section img.size-800 {
+    width: 800px;
+}
